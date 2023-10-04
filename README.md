@@ -6,7 +6,6 @@ This is a web application that where you can explore cars effortlessly! Simply s
 
 - [Getting Started](#getting-started)
 - [Basic Functionalities](#basic-functionalities)
-- [Bonus Functionalities](#bonus-functionalities)
 - [Technologies Used](#technologies-used)
 
 ## Getting Started
