@@ -1,0 +1,133 @@
+.carcards{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: var(--background-color);
+    flex-grow: 1;
+    flex-basis: 31.1%;
+    max-width: 31.1%;
+    display: flex;
+    flex-direction: column;
+}
+.carimg{
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+    /* margin-bottom: 1rem; */
+}
+.carimage{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.nameandyear{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 25px;
+    /* margin-bottom: 0.25rem; */
+}
+
+.carnamee{
+    font-size: 20px;
+}
+
+.caryearr{
+    border: 1px dashed var(--blue-color);
+    border-radius: 15px;
+    font-size: 13px;
+    padding: 5px 12px;
+}
+.cardetailsss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px 25px;
+}
+.capacityandfuel, .distanceandtype{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:100%;
+}
+.distanceandtype{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #adadad;
+    margin-bottom: 1rem;
+}
+.carcapacity,.carfuel,.cardistance,.cartype{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:100%; 
+}
+.capacityname,.fuelname, .distancename, .typename{
+    margin-left: 0.5rem;
+    color: var(--search-byfield);
+    font-weight:500;
+    font-size: 14px;
+}
+.capacityicon,.fuelicon, .distanceicon, .typeicon{
+    color: var(--icon-color);
+}
+.carfuel{
+    margin-left:2rem;
+}
+.cartype{
+    margin-left:2rem;
+}
+
+.footercar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 1rem;
+}
+
+.leftfooter{
+    padding-left:25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rightfooter{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:flex-start;
+    padding-right: 20px;
+}
+
+.carlike{
+    padding: 7px 10px;
+    background-color: var(--likebackground-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.fa-heart{
+    background-color: var(--likebackground-color);
+    /* color: var(--icon-color); */
+    cursor: pointer;
+}
+
+.carrentbtn{
+    padding: 10px 15px;
+    background-color: var(--icon-color);
+    color: var(--white-background);
+    font-weight:500;
+    border: none;
+    border-radius:10px;
+    margin-left: 12px;
+    cursor:pointer;
+}
+.month{
+    font-size: 12px;
+}

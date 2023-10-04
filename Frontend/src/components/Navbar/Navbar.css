@@ -1,0 +1,71 @@
+@import url("../../App.css");
+
+.navbar{
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem; 
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* border: 1px solid white; */
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fields{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    background-color: var(--white-background);
+    border-radius: 14px;
+    padding: 2px 10px;
+    width: 15rem;
+}
+
+.inputfield{
+    padding: 5px;
+    background-color: white;
+}
+.inputt{
+    background-color: white;
+    color: var(--search-icon);
+    border: none;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.searchicon{
+    background-color: var(--white-background);
+    color: var(--search-icon);
+}
+.fa-magnifying-glass{
+    background-color: var(--white-background);
+}
+
+.searchbyrelevance, .searchbybrand{
+    display: flex;
+    flex-direction: row;
+    margin-left:2rem;
+    color: var(--search-byfield);
+    font-weight:500;
+}
+.searcharrow, .searchbrandarrow{
+    margin-left: 0.3rem;
+    font-size: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}

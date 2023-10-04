@@ -1,0 +1,43 @@
+@import url("../../App.css");
+
+.dashboard-container{
+    
+    
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+    /* width: fit-content; */
+}
+.pagination{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem; 
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.pagebtn{
+    padding: 8px 12px;
+    border: none;
+    background-color: var(--white-background);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor:pointer;
+}
+
+.fa-arrow-left{
+    background-color: var(--white-background);
+
+}
+.fa-arrow-right{
+    background-color: var(--white-background);
+}
