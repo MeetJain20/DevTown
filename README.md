@@ -5,7 +5,7 @@ This is a web application where you can explore cars effortlessly! Simply search
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-- [Basic Functionalities](#basic-functionalities)
+- [Functionalities](#basic-functionalities)
 - [Technologies Used](#technologies-used)
 
 ## Getting Started
@@ -18,7 +18,7 @@ Follow these steps to set up and run the Digital Wall project on your local mach
 4. Start the development server: `npm start`
 5. Open your web browser and visit: `http://localhost:3000`
 
-## Basic Functionalities
+## Functionalities
 
 - **Searching and Pagination**
   Easily search for cars by name, featuring a functional pagination system. The URL dynamically updates to reflect the current page (e.g., `page/1`, `page/2`).
@@ -28,6 +28,9 @@ Follow these steps to set up and run the Digital Wall project on your local mach
 
 - **Pagination Controls**
   Effortlessly navigate through 10 pages with hardcoded numbers. Intuitive controls include next and previous buttons for a seamless browsing experience.
+
+- **Like Feature**
+  You can like the car which you find that suits well as per your requirements.
 
 - **Card Design**
   While not pixel-perfect, the car card design closely resembles the provided image, enhancing the overall visual experience for users.
