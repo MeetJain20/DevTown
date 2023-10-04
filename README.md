@@ -30,7 +30,7 @@ Follow these steps to set up and run the Digital Wall project on your local mach
   Effortlessly navigate through 10 pages with hardcoded numbers. Intuitive controls include next and previous buttons for a seamless browsing experience.
 
 - **Like Feature**
-  You can like the car which you find that suits well as per your requirements.
+  You can like the car which suits well as per your requirements.
 
 - **Card Design**
   While not pixel-perfect, the car card design closely resembles the provided image, enhancing the overall visual experience for users.
