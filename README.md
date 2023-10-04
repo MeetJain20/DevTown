@@ -13,7 +13,7 @@ This is a web application where you can explore cars effortlessly! Simply search
 Follow these steps to set up and run the Digital Wall project on your local machine:
 
 1. Download the Zip Folder
-2. Go to the FrontEnd Directory
+2. Go to the Frontend Directory
 3. Run Command: `npm install`
 4. Start the development server: `npm start`
 5. Open your web browser and visit: `http://localhost:3000`
