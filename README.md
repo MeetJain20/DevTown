@@ -1,6 +1,6 @@
 # StaziTech
 
-This is a web application that where you can explore cars effortlessly! Simply search by name, view detailed info, and flip through pages smoothly with user-friendly pagination feature. You can like the car if you find it good. So why wait, Start searching now!
+This is a web application where you can explore cars effortlessly! Simply search by name, view detailed info, and flip through pages smoothly with user-friendly pagination feature. You can like the car if you find it good. So why wait, Start searching now!
 
 ## Table of Contents
 
