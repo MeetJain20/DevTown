@@ -85,7 +85,7 @@ const CarDetails = (props) => {
             </div>
             <div className="footercar">
                 <div className="leftfooter">
-                    ${price} <span className="month">/ month</span>
+                    ${price} <span className="month">/ week</span>
                 </div>
                 <div className="rightfooter">
                     <div className="carlike" onClick={likeHandler}>

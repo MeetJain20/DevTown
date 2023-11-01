@@ -15,10 +15,27 @@
     justify-content: flex-start;
 }
 
+.navhead{
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.rightsidenavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+.dropdown-item{
+    cursor: pointer;
+}
 .fields{
     display: flex;
     flex-direction: row;
     align-items:center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .searchbar{

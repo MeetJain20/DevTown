@@ -1,18 +1,19 @@
 @import url("../../App.css");
 
-.dashboard-container{
-    
-    
+.contain{
     display: flex;
-    flex-wrap: wrap;  
+    justify-content:center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dashboard-container{
+    display: flex;
     justify-content: flex-start;
-    margin-top: 1.5rem;
-    /* width: fit-content; */
+    width: 100%;
+    padding: 10px;
 }
 .pagination{
     margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
     margin-bottom: 0.5rem; 
     padding: 16px;
     border-radius: 20px;
