@@ -9,7 +9,7 @@ const Navbar = () => {
     let selectedCategory = ""
     const categoryList = [
         { value: "sortbyprice", label: "Sort By Price" },
-        { value: "sortbycapacity", label: "Sort By Capacity" }
+        { value: "sortbycapacity", label: "Sort By Seats" }
     ];
     const categoryHandler = (e) => {
         e.preventDefault();

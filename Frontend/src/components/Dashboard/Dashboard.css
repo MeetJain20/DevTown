@@ -42,3 +42,20 @@
 .fa-arrow-right{
     background-color: var(--white-background);
 }
+
+.col-md-4 {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.col-md-4.first {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

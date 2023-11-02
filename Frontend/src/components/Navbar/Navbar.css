@@ -86,3 +86,36 @@ input:focus {
     align-items: flex-end;
     margin-bottom: 5px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 12px;
+    }
+
+    .navhead {
+        font-size: 0.75rem;
+    }
+
+    .rightsidenavbar {
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+    }
+
+    .searchbar {
+        display: none;
+    }
+
+    .inputfield {
+        width: 100%;
+    }
+
+    .inputt {
+        width: 100%;
+    }
+}

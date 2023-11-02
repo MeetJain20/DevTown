@@ -22,7 +22,6 @@ const Dashboard = () => {
             return formattedCarName.includes(formattedSearchValue);
         });
 
-        // Sort the filtered data based on filtervalue
         if (filtervalue === 'sortbyprice') {
             filteredData.sort((a, b) => a.price - b.price);
         } else if (filtervalue === 'sortbycapacity') {
@@ -45,7 +44,14 @@ const Dashboard = () => {
 
     const getPageNumbers = Array.from({ length: Math.ceil(carsData.length / pageSize) }, (_, index) => index + 1);
 
-
+    useEffect(() => {
+        const cards = document.querySelectorAll('.col-md-4');
+        cards.forEach((card, index) => {
+            setTimeout(() => {
+                card.classList.add('active');
+            }, index * 100); // Adjust the delay based on your preference
+        });
+    }, []);
     // const filteredCarData = Object.values(currentPageData).filter(car => {
     //     const formattedCarName = car.name.replace(/[\s-]/g, '').toLowerCase();
     //     const formattedSearchValue = searchvalue.replace(/[\s-]/g, '').toLowerCase();
@@ -60,13 +66,23 @@ const Dashboard = () => {
     return (
         <div className="contain">
             <div className="dashboard-container row">
-                {currentPageData.map((car) => {
-                    return (
-                        <div className="col-md-4">
-                            <CarDetails key={car.carid} carid={car.carid} name={car.name} img={car.image} year={car.year} capacity={car.capacity} fuel={car.fuel} type={car.type} distance={car.distance} price={car.price} isLike={car.isLike} />
-                        </div>
-                    )
-                })}
+                {currentPageData.map((car, index) => (
+                    <div key={index} className={`col-md-4 ${index >= 0 ? 'first' : ''}`}>
+                        <CarDetails
+                            key={car.carid}
+                            carid={car.carid}
+                            name={car.name}
+                            img={car.image}
+                            year={car.year}
+                            capacity={car.capacity}
+                            fuel={car.fuel}
+                            type={car.type}
+                            distance={car.distance}
+                            price={car.price}
+                            isLike={car.isLike}
+                        />
+                    </div>
+                ))}
 
                 <div className="pagination">
                     <div className="leftpage">
