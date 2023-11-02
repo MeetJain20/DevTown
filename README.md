@@ -23,8 +23,8 @@ Follow these steps to set up and run the Digital Wall project on your local mach
 - **Searching and Pagination**
   Easily search for cars by name, featuring a functional pagination system. The URL dynamically updates to reflect the current page (e.g., `page/1`, `page/2`).
 
-- **Card Layout**
-  Neatly organized rows of three car cards create an aesthetically pleasing and organized display. Each page showcases a total of six cards.
+- **Filter**
+  View the car details as per your preference by sorting it based on price or seats.
 
 - **Pagination Controls**
   Effortlessly navigate through pages .Intuitive controls include next and previous buttons for a seamless browsing experience.
@@ -32,8 +32,8 @@ Follow these steps to set up and run the Digital Wall project on your local mach
 - **Like Feature**
   You can like the car which suits well as per your requirements.
 
-- **Filter**
-  View the car details as per your preference by sorting it based on price or seats.
+  - **Card Layout**
+    Neatly organized rows of three car cards create an aesthetically pleasing and organized display. Each page showcases a total of six cards.
 
 ## Technologies Used
 
