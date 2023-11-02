@@ -32,8 +32,8 @@ Follow these steps to set up and run the Digital Wall project on your local mach
 - **Like Feature**
   You can like the car which suits well as per your requirements.
 
-  - **Card Layout**
-    Neatly organized rows of three car cards create an aesthetically pleasing and organized display. Each page showcases a total of six cards.
+- **Card Layout**
+  Neatly organized rows of three car cards create an aesthetically pleasing and organized display. Each page showcases a total of six cards.
 
 ## Technologies Used
 
